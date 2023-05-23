@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../Lession02-Project/pom.xml" />
+        <option value="$PROJECT_DIR$/../Lession03-Project/pom.xml" />
+        <option value="$PROJECT_DIR$/../Lession04-Single/pom.xml" />
+        <option value="$PROJECT_DIR$/../Lession05-Crm/pom.xml" />
+        <option value="$PROJECT_DIR$/../Lession06-package/pom.xml" />
+        <option value="$PROJECT_DIR$/../Lession07-Config/pom.xml" />
+        <option value="$PROJECT_DIR$/../Lession08-aop/pom.xml" />
+        <option value="$PROJECT_DIR$/../Lession09-JdbcTpl/pom.xml" />
+        <option value="$PROJECT_DIR$/../Lession10-MyBatis/pom.xml" />
+        <option value="$PROJECT_DIR$/../Lession11-Trans/pom.xml" />
+        <option value="$PROJECT_DIR$/../Lession12-quick-web/pom.xml" />
+        <option value="$PROJECT_DIR$/../Lession13-ServletFilter/pom.xml" />
+        <option value="$PROJECT_DIR$/../Lession14-WebMvcConfig/pom.xml" />
+        <option value="$PROJECT_DIR$/../Lession15-UploadFiles/pom.xml" />
+        <option value="$PROJECT_DIR$/../Lession16-ExceptionHandler/pom.xml" />
+        <option value="$PROJECT_DIR$/../Lession17-ProblemDetail/pom.xml" />
+        <option value="$PROJECT_DIR$/../Lession18-HttpService/pom.xml" />
+        <option value="$PROJECT_DIR$/../Lession19-ThymeleafAdmin/pom.xml" />
+        <option value="$PROJECT_DIR$/../Lession20-BlogAdmin/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_19" project-jdk-name="19 (2)" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

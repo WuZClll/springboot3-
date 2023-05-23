@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Lession03-Project" />
+        <module name="Lession05-Crm" />
+        <module name="Lession20-BlogAdmin" />
+        <module name="Lession08-aop" />
+        <module name="Lession15-UploadFiles" />
+        <module name="Lession06-package" />
+        <module name="Lession17-ProblemDetail" />
+        <module name="Lession02-Project" />
+        <module name="Lession10-MyBatis" />
+        <module name="Lession18-HttpService" />
+        <module name="Lession19-ThymeleafAdmin" />
+        <module name="Lession11-Trans" />
+        <module name="Lession12-quick-web" />
+        <module name="Lession14-WebMvcConfig" />
+        <module name="Lession09-JdbcTpl" />
+        <module name="Lession01-feature" />
+        <module name="feature" />
+        <module name="Lession16-ExceptionHandler" />
+        <module name="Lession07-Config" />
+        <module name="Lession04-Single" />
+        <module name="Lession13-ServletFilter" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Lession02-Project" options="-parameters" />
+      <module name="Lession03-Project" options="-parameters" />
+      <module name="Lession04-Single" options="-parameters" />
+      <module name="Lession05-Crm" options="-parameters" />
+      <module name="Lession06-package" options="-parameters" />
+      <module name="Lession07-Config" options="-parameters" />
+      <module name="Lession08-aop" options="-parameters" />
+      <module name="Lession09-JdbcTpl" options="-parameters" />
+      <module name="Lession10-MyBatis" options="-parameters" />
+      <module name="Lession11-Trans" options="-parameters" />
+      <module name="Lession12-quick-web" options="-parameters" />
+      <module name="Lession13-ServletFilter" options="-parameters" />
+      <module name="Lession14-WebMvcConfig" options="-parameters" />
+      <module name="Lession15-UploadFiles" options="-parameters" />
+      <module name="Lession16-ExceptionHandler" options="-parameters" />
+      <module name="Lession17-ProblemDetail" options="-parameters" />
+      <module name="Lession18-HttpService" options="-parameters" />
+      <module name="Lession19-ThymeleafAdmin" options="-parameters" />
+      <module name="Lession20-BlogAdmin" options="-parameters" />
+    </option>
+  </component>
+</project>

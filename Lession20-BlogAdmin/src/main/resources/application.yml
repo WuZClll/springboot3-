@@ -1,0 +1,19 @@
+server:
+  port: 8000
+  servlet:
+    context-path: /blog
+
+spring:
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    cache: false # 缓存 假 便于调试
+  config:
+    import: conf/app-base.yml,conf/db.yml
+
+#mybatis
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: true
+  mapper-locations: classpath:/mappers/**/*.xml

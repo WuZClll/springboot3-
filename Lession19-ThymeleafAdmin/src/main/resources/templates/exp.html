@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+  <h3>表达式</h3>
+  <div th:text="${name}"></div>
+  <div th:text="${address}"></div>
+
+  <h3>连接表达式</h3>
+  <a th:href="@{http://www.baidu.com}">连接到百度</a> <br/>
+  <a th:href="@{/link}">连接到link地址，无参数</a> <br/>
+  <a th:href="@{/link(id=111,name=lisi)}">连接表达式，传递参数(参数名=值，参数名=值...)</a>
+
+</body>
+</html>

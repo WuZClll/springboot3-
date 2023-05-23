@@ -1,0 +1,23 @@
+#指定初始的book数据，代替数据库
+product:
+  books:
+    - isbn: B001
+      name: java
+      author: lisi
+    - isbn: B002
+      name: tomcat
+      author: zhangsan
+    - isbn: B003
+      name: jvm
+      author: zhouxing
+#访问路径
+server:
+  servlet:
+    context-path: /api
+
+
+#开启支付RFC7807
+spring:
+  mvc:
+    problemdetails:
+      enabled: true

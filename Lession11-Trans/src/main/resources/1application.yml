@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/blog?serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+    hikari:
+      auto-commit: true
+      # # connections = ((cpu 核心数 * 2) + 磁盘数量) 近似值。 默认 10
+      maximum-pool-size: 10
+      #获取连接时，检测语句
+      connection-test-query: select 1
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

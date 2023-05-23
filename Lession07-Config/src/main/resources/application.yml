@@ -1,0 +1,54 @@
+#编写配置项  key: 值
+#app.name
+app:
+  name: Lession07-yml
+  owner: changming01
+  port: 9000
+
+
+#导入其他的配置 ， 多个文件使用",“ 作为分隔符
+spring:
+  config:
+    import: conf/db.yml,conf/redis.yml
+  #激活某个配置文件（环境）
+  profiles:
+    active: test
+#
+#
+##Bean
+myapp:
+  name: Lession07-BindBean
+  owner: changming06
+  port: 9006
+  security:
+    username: root123
+    password: 123456
+
+
+#第三方库对象，没有源代码
+security:
+  username: common
+  password: 123456
+
+#配置集合 pk8
+#数组 和 List 一样的， 使用“-" 一个成员
+names:
+  - lisi
+  - zhangsan
+#List<MyServer> servers
+servers:
+  - title: 华北服务器
+    ip: 202.12.39.1
+  - title: 西南服务器
+    ip: 106.90.23.229
+
+#Map<String,User> users
+users:
+  user1:
+    name: 张三
+    sex: 男
+    age: 22
+  user2:
+    name: 李四
+    sex: 男
+    age: 26
